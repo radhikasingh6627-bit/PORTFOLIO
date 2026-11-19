@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radhika Singh | B.Tech CSE (AI/ML) Portfolio</title>
+  
+  <!-- Meta description for SEO -->
+  <meta name="description" content="Personal portfolio of Radhika Singh - B.Tech Computer Science & Engineering (AI/ML) undergraduate. Discover projects, technical skills, certifications, and experience.">
+  <meta name="author" content="Radhika Singh">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit for modern, elegant typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       BACKGROUND DECORATIVE GRADIENT BLOBS
+       Subtle, elegant pastel lavender floating elements
+       ======================================================== -->
+  <div class="blob-wrapper" aria-hidden="true">
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+  </div>
+
+  <!-- ========================================================
+       1. NAVIGATION BAR
+       Sticky glassmorphism header with mobile hamburger drawer
+       ======================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Logo: Editable text -->
+      <a href="#home" class="nav-logo" aria-label="Radhika Singh Homepage">
+        <span class="logo-mark">R</span>
+        <span class="logo-text">Radhika<span class="accent-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navigation Actions: Resume Button & Mobile Toggle -->
+      <div class="nav-actions">
+        <!-- EDIT HERE: Replace 'resume.pdf' with the link or file path to your actual CV/Resume -->
+        <a href="RADHIKA SINGH RESUME.docx.docx"
+         class="btn btn-sm btn-primary resume-btn" id="resumeBtn" title="Download or view my Resume">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         2. HOME / HERO SECTION
+         Two-column layout, elegant typography, animated typing,
+         profile placeholder & decorative floating tags
+         ======================================================== -->
+    <section class="hero section-padding" id="home">
+      <div class="container hero-container">
+        
+        <!-- Left Column: Content & Call To Actions -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="badge-pill">
+            <span class="badge-pulse"></span>
+            <span class="badge-text">B.Tech CSE (AI/ML) Undergraduate</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hello, I'm <br>
+            <span class="gradient-text">Radhika Singh</span>
+          </h1>
+
+          <div class="hero-typing-wrapper">
+            <span class="typing-prefix">Passionate about </span>
+            <span class="typed-text" id="typedText"></span>
+            <span class="cursor" aria-hidden="true">&nbsp;</span>
+          </div>
+
+          <!-- Professional introduction placeholder -->
+          <p class="hero-description">
+            <!-- EDIT HERE: Customize your personal tagline or brief intro -->
+            I am a B.Tech Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. I have a strong interest in AI, Machine Learning, and emerging technologies. I possess basic programming knowledge and am continuously developing my technical and problem-solving skills through practical projects and learning. I am eager to explore new opportunities, gain hands-on experience, and contribute to innovative projects..
+          </p>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <i class="fa-regular fa-paper-plane"></i>
+            </a>
+          </div>
+
+          <!-- Hero Social Links -->
+          <div class="hero-socials">
+            <span class="social-label">Connect with me:</span>
+            <div class="social-icons-row">
+              <!-- LinkedIn Link -->
+              <a href="https://www.linkedin.com/in/radhika-singh-768a34395" target="_blank" rel="noopener noreferrer" class="social-bubble" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span class="bubble-tooltip">LinkedIn</span>
+              </a>
+              <!-- GitHub Link -->
+              <a href="https://github.com/radhikasingh6627-bit" target="_blank" rel="noopener noreferrer" class="social-bubble" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+                <span class="bubble-tooltip">GitHub</span>
+              </a>
+              <!-- Email Link -->
+              <a href="mailto:radhikasingh6627@gmail.com" class="social-bubble" aria-label="Send Email">
+                <i class="fa-regular fa-envelope"></i>
+                <span class="bubble-tooltip">Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Circular Profile Image Placeholder & Floating Badges -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="avatar-card-wrapper">
+            <!-- Decorative Lavender Accent Rings -->
+            <div class="avatar-ring ring-outer"></div>
+            <div class="avatar-ring ring-middle"></div>
+
+            <div class="avatar-frame">
+              <!-- EDIT HERE: Replace 'profile-placeholder.jpg' with your actual profile image -->
+              <img src="PROFILE PICTURE.jpeg" alt="Radhika Singh Profile Picture" class="avatar-image">
+
+            <!-- Floating Decorative Element 1: AI/ML Specialization -->
+            <div class="floating-badge badge-top-left float-anim">
+              <div class="badge-icon-wrap">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="badge-info">
+                <span class="badge-subtitle">Specialization</span>
+                <span class="badge-title">AI & ML Focus</span>
+              </div>
+            </div>
+
+            <!-- Floating Decorative Element 2: Clean Code & Web -->
+            <div class="floating-badge badge-bottom-right float-anim-delayed">
+              <div class="badge-icon-wrap">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="badge-info">
+                <span class="badge-subtitle">Development</span>
+                <span class="badge-title">Creative UI / UX</span>
+              </div>
+            </div>
+
+            <!-- Floating Star Sparkle Decoration -->
+            <div class="sparkle sparkle-1" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></div>
+            <div class="sparkle sparkle-2" aria-hidden="true"><i class="fa-solid fa-star"></i></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         3. ABOUT SECTION
+         Introduction card, education details, career objective,
+         key highlights, alternating soft lavender background
+         ======================================================== -->
+    <section class="about section-padding section-alt" id="about">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fa-solid fa-sparkles"></i>
+            <span>Get To Know Me</span>
+          </div>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            Turning Curiosity into CODE , Ideas into INNOVATION, and Passion into PURPOSE.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- About Card: Personal Introduction & Story -->
+          <div class="about-card main-about-card reveal-on-scroll">
+            <div class="about-card-badge">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>JOURNEY</span>
+            </div>
+            
+            <h3 class="about-heading">Driven by curiosity , Inspired by Innovation</h3>
+            
+            <!-- EDIT HERE: Personal introduction text -->
+            <p class="about-text">
+              I am a second-year B.Tech student pursuing Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. With a strong interest in emerging technologies, I enjoy exploring how software, data, and intelligent systems can solve real-world problems. I am continuously strengthening my problem-solving skills, developing practical projects, and learning through collaborative experiences to understand how technology can automate tasks and enhance human intelligence.
+            </p>
+
+            <!-- EDIT HERE: Career objective text -->
+            <div class="objective-box">
+              <div class="objective-icon">
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <div class="objective-content">
+                <h4 class="objective-title">Career Objective</h4>
+                <p class="objective-text">
+                  To leverage my foundational expertise in AI/ML and software engineering to contribute toward impactful, scalable tech innovations while continuously mastering modern industry frameworks and intelligent cloud solutions.
+                </p>
+              </div>
+            </div>
+
+            <!-- Education Details Card -->
+            <div class="education-highlight">
+              <div class="edu-icon-circle">
+                <i class="fa-solid fa-university"></i>
+              </div>
+              <div class="edu-details">
+                <span class="edu-degree">Bachelor of Technology (B.Tech)</span>
+                <span class="edu-major">Computer Science & Engineering — AI & ML</span>
+                <span class="edu-status"><i class="fa-regular fa-clock"></i> Currently Enrolled | Passionate Explorer</span>
+              </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="about-cta-row">
+              <a href="#contact" class="btn btn-primary">
+                <span>Let's Connect</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="#experience" class="btn btn-secondary">
+                <span>View My Journey</span>
+                <i class="fa-solid fa-timeline"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- About Highlights: 4 Feature Mini Cards -->
+          <div class="about-highlights-grid reveal-on-scroll">
+            
+            <!-- Highlight 1 -->
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <h4 class="highlight-title">AI & ML Specialization</h4>
+              <p class="highlight-desc">
+                Exploring deep learning architectures, supervised algorithms, NLP, and intelligent data-driven modeling.
+              </p>
+            </div>
+
+            <!-- Highlight 2 -->
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <h4 class="highlight-title">Modern Web Design</h4>
+              <p class="highlight-desc">
+                Passionate about clean semantics, pastel aesthetics, fluid responsiveness, and accessible user experiences.
+              </p>
+            </div>
+
+            <!-- Highlight 3 -->
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-code-merge"></i>
+              </div>
+              <h4 class="highlight-title">Problem Solving</h4>
+              <p class="highlight-desc">
+                Building strong fundamentals in data structures, algorithms, and modular, clean code practices.
+              </p>
+            </div>
+
+            <!-- Highlight 4 -->
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <i class="fa-solid fa-handshake-angle"></i>
+              </div>
+              <h4 class="highlight-title">Collaborative Spirit</h4>
+              <p class="highlight-desc">
+                Eager to contribute to hackathons, open-source initiatives, team sprints, and transformative student projects.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. PROJECTS SECTION
+         Modern project cards with image placeholder, tags,
+         GitHub & Live Demo links, category filters
+         ======================================================== -->
+    <section class="projects section-padding" id="projects">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fa-solid fa-folder-open"></i>
+            <span>My Creations</span>
+          </div>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">
+            A curated showcase of my PROJECTS.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="project-filters reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+         
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- PROJECT CARD 1 (AI & ML) -->
+          <!-- EDIT HERE: Update project details, image, links and tags -->
+          <article class="project-card reveal-on-scroll" data-category="ai-ml">
+            <div class="project-image-box">
+              <div class="project-placeholder-preview bg-lavender-mesh">
+                <div class="preview-badge"><i class="fa-solid fa-brain"></i> AI / ML</div>
+                <div class="preview-icon-center">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <span class="preview-caption">DATA ANALYSIS</span>
+              </div>
+              <div class="project-overlay">
+                <a href="https://github.com/radhikasingh6627-bit/TITANIC-SURVIVAL-ANALYSIS"
+                 target="_blank" rel="noopener noreferrer" class="overlay-link" title="View Source Code">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#projects" class="overlay-link demo-trigger" title="Live Preview">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Scikit-Learn</span>
+              </div>
+              <h3 class="project-title">TITANIC SURVIVAL ANALYSIS</h3>
+              <p class="project-description">
+                An exploratory data analysis and machine learning project that investigates the factors influencing passenger survival during the 1912 Titanic disaster. Using data preprocessing, visualization, and Logistic Regression, the model predicts passenger survival with 79.9% accuracy.
+
+              </p>
+              <div class="project-footer">
+                <!-- EDIT HERE: Insert your repository URL -->
+                <a href="https://github.com/radhikasingh6627-bit/TITANIC-SURVIVAL-ANALYSIS"
+                 target="_blank" rel="noopener noreferrer" class="btn btn-outline-purple btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT CARD 2 (AI & ML, NLP) -->
+          <!-- EDIT HERE: Update project details, image, links and tags -->
+          <article class="project-card reveal-on-scroll" data-category="ai-ml">
+            <div class="project-image-box">
+              <div class="project-placeholder-preview bg-lavender-mesh-2">
+                <div class="preview-badge"><i class="fa-solid fa-robot"></i> AIML</div>
+                <div class="preview-icon-center">
+                  <i class="fa-solid fa-file-lines"></i>
+                </div>
+                <span class="preview-caption">Zomato Data Insights</span>
+              </div>
+              <div class="project-overlay">
+                <a href="https://github.com/radhikasingh6627-bit/ZOMATO-DATA-ANALYSIS" target="_blank" rel="noopener noreferrer" class="overlay-link" title="View Source Code">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#projects" class="overlay-link demo-trigger" title="Live Preview">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tech-tag">PYTHON</span>
+                <span class="tech-tag">PANDAS</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+              <h3 class="project-title">ZOMATO DATA ANALYSIS</h3>
+              <p class="project-description">
+                A data analysis project focused on cleaning, transforming, and preprocessing the Zomato restaurant dataset. Using Python, Pandas, and visualization libraries, the project handles missing values, standardizes data, and prepares restaurant information for meaningful analysis.
+              </p>
+              <div class="project-footer">
+                <a href="https://github.com/radhikasingh6627-bit/ZOMATO-DATA-ANALYSIS" target="_blank" rel="noopener noreferrer" class="btn btn-outline-purple btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT CARD 3 (Web Development) -->
+          <!-- EDIT HERE: Update project details, image, links and tags -->
+          <article class="project-card reveal-on-scroll" data-category="web">
+            <div class="project-image-box">
+              <div class="project-placeholder-preview bg-lavender-mesh">
+                <div class="preview-badge"><i class="fa-solid fa-code"></i> Frontend</div>
+                <div class="preview-icon-center">
+                  <i class="fa-solid fa-palette"></i>
+                </div>
+                <span class="preview-caption">DAILY BUILD TO-DO</span>
+              </div>
+              <div class="project-overlay">
+                <a href="https://radhikasingh6627-bit.github.io/DAILY-BUILD-TO-DO/" target="_blank" rel="noopener noreferrer" class="overlay-link" title="View Source Code">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#home" class="overlay-link" title="Live Preview">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+               
+              </div>
+              <h3 class="project-title">DAILY BUILD TO-DO</h3>
+              <p class="project-description">
+                A simple and interactive daily task management application that helps users organize their daily activities, add tasks, track progress, and manage their to-do lists through a clean and user-friendly interface.
+              </p>
+              <div class="project-footer">
+                <a href="https://radhikasingh6627-bit.github.io/DAILY-BUILD-TO-DO/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-purple btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://radhikasingh6627-bit.github.io/DAILY-BUILD-TO-DO/" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <span>Live Preview</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT CARD 4 (web, Vision) -->
+          <!-- EDIT HERE: Update project details, image, links and tags -->
+          <article class="project-card reveal-on-scroll" data-category="web">
+            <div class="project-image-box">
+              <div class="project-placeholder-preview bg-lavender-mesh-2">
+                <div class="preview-badge">
+                  <i class="fa-solid fa-eye"></i> WEB DEVELOPMENT
+                </div>
+                <div class="preview-icon-center">
+                  <i class="fa-solid fa-camera-retro"></i>
+                </div>
+                <span class="preview-caption">SCAM SHIELD </span>
+              </div>
+              <div class="project-overlay">
+                <a href="https://radhikasingh6627-bit.github.io/Scam-shield-suspicious-message-checker-/" target="_blank" rel="noopener noreferrer" class="overlay-link" title="View Source Code">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#home" title="Live Preview">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                
+              </div>
+              <h3 class="project-title">SCAM SHIELD</h3>
+              <p class="project-description">
+                A simple and user-friendly To-Do application designed to help users organize their daily tasks and stay productive. It provides an easy way to manage everyday activities through a clean interface, making task planning and tracking more convenient.
+              </p>
+              <div class="project-footer">
+                <a href="https://github.com/radhikasingh6627-bit/Scam-shield-suspicious-message-checker-" target="_blank" rel="noopener noreferrer" class="btn btn-outline-purple btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://radhikasingh6627-bit.github.io/Scam-shield-suspicious-message-checker-/"
+                target="_blank" rel="noopener noreferrer"
+                 class="btn btn-primary btn-sm ">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          
+            
+          <!-- PROJECT CARD 5 (Web Development) -->
+          <!-- EDIT HERE: Update project details, image, links and tags -->
+          <article class="project-card reveal-on-scroll" data-category="web">
+            <div class="project-image-box">
+              <div class="project-placeholder-preview bg-lavender-mesh-2">
+                <div class="preview-badge"><i class="fa-solid fa-layer-group"></i> WEB DEVELOPMENT</div>
+                <div class="preview-icon-center">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <span class="preview-caption">INTERACTIVE WEB APPLICATION</span>
+              </div>
+              <div class="project-overlay">
+                <a href="https://radhikasingh6627-bit.github.io/Color-Switch/" target="_blank" rel="noopener noreferrer" class="overlay-link" title="View Source Code">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://radhikasingh6627-bit.github.io/Color-Switch/" class="overlay-link demo-trigger" title="Live Preview">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+            
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS3</span>
+                
+              </div>
+              <h3 class="project-title">COLOR SWITCH</h3>
+              <p class="project-description">
+                An interactive web application that allows users to change the background colour by clicking on six different coloured circles. Built using HTML, CSS, and vanilla JavaScript, this project demonstrates DOM manipulation and event handling without using any external libraries or frameworks.
+              </p>
+              <div class="project-footer">
+                <a href="https://github.com/radhikasingh6627-bit/Color-Switch" target="_blank" rel="noopener noreferrer" class="btn btn-outline-purple btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                
+                <a href="https://radhikasingh6627-bit.github.io/Color-Switch/" 
+                class="btn btn-primary btn-sm ">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. TECHNICAL SKILLS SECTION
+         Categorized cards, elegant icons, no fake percentages,
+         all skills editable with lavender tags
+         ======================================================== -->
+    <!-- TECHNICAL SKILLS SECTION -->
+<section class="tech-network-section" id="skills">
+
+    <div class="tech-heading">
+        <span>MY EXPERTISE</span>
+        <h2>Technical Skills</h2>
+        <p>Technologies and tools I work with</p>
+    </div>
+
+    <div class="network-container">
+
+        <svg class="network-lines"></svg>
+
+        <div class="network-center">
+            <div class="center-icon">&lt;/&gt;</div>
+            <h3>TECH STACK</h3>
+            <p>My Skills</p>
+        </div>
+
+        <div class="skill-nodes"></div>
+
+    </div>
+</section>
+    <!-- ========================================================
+         6. EXPERIENCE & JOURNEY SECTION
+         Vertical timeline with editable entries for
+         experience, internships, training, and hackathons
+         ======================================================== -->
+    <section class="experience section-padding" id="experience">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fa-solid fa-timeline"></i>
+            <span>Milestones & Growth</span>
+          </div>
+          <h2 class="section-title">Experience & <span class="gradient-text">Journey</span></h2>
+          <p class="section-subtitle">
+            A chronological timeline of my internships, specialized training programs and hackathons.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- TIMELINE ITEM 1: Internship Placeholder -->
+          <!-- EDIT HERE: Update with your internship experience -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-lavender">Internship</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2026 — July 2026 (Placeholder)</span>
+              </div>
+              <h3 class="timeline-title">Javascript Intern</h3>
+              <h4 class="timeline-org"><i class="fa-solid fa-building"></i>  EI Systems</h4>
+              <p class="timeline-desc">
+                Contributed to the development of interactive web applications using JavaScript, HTML, and CSS. Assisted in implementing front-end functionality, debugging code, optimizing website performance, and developing responsive user interfaces while collaborating on real-world development tasks.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">HTML</span>
+                <span class="timeline-tag">CSS</span>
+                <span class="timeline-tag">JAVASCRIPT</span>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- TIMELINE ITEM 2: Specialized Training -->
+          <!-- EDIT HERE: Update with your training or specialization details -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-purple">Training</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> June 2026</span>
+              </div>
+              <h3 class="timeline-title">Data Management</h3>
+              <h4 class="timeline-org"><i class="fa-solid fa-graduation-cap"></i> saylor.org university</h4>
+              <p class="timeline-desc">
+                Completed rigorous hands-on coursework in data management, database design, and SQL programming. Gained practical experience in creating and managing relational databases, optimizing queries, and ensuring data integrity for real-world applications.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">SQL</span>
+                <span class="timeline-tag">Database Design</span>
+                <span class="timeline-tag">Data Integrity</span>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- TIMELINE ITEM 3: Hackathon Participation -->
+          <!-- EDIT HERE: Update with your hackathon achievement -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-lavender">Hackathon</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> September 2026</span>
+              </div>
+              <h3 class="timeline-title">Smart India Hackathon</h3>
+              <h4 class="timeline-org"><i class="fa-solid fa-flag-checkered"></i> National Level Hackathon</h4>
+              <p class="timeline-desc">
+                Collaborated with a 6-person team which enhances my teamwork and problem-solving skills. Developed a prtotype for BIS standard.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Rapid Prototyping</span>
+                <span class="timeline-tag">Pitching</span>
+                <span class="timeline-tag">API Integration</span>
+                <span class="timeline-tag">Teamwork</span>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- TIMELINE ITEM 4: academics -->
+   
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-node">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-badge badge-lavender">Academics </span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2025-26</span>
+              </div>
+              <h3 class="timeline-title">Academics Journey</h3>
+              <h4 class="timeline-org"><i class="fa-solid fa-flag-checkered"></i> 8 CGPA in First Year</h4>
+              <p class="timeline-desc">
+                Achieved a strong academic performance in the first year of B.Tech CSE (AI/ML) with a CGPA of 8.0, demonstrating dedication to coursework, effective time management, and a solid understanding of foundational concepts in computer science and engineering.
+              </p>
+              
+            </div>
+          </div>
+
+          
+    <!-- ========================================================
+         7. ACHIEVEMENTS & CERTIFICATIONS SECTION
+         Distinct certificate cards + achievements area
+         ======================================================== -->
+    <section class="achievements section-padding section-alt" id="achievements">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fa-solid fa-award"></i>
+            <span>Recognition & Credentials</span>
+          </div>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">
+            Verified credentials and recognized milestones representing continuous learning and academic diligence.
+          </p>
+        </div>
+
+        <!-- CERTIFICATIONS SUBSECTION -->
+        <div class="subsection-wrap reveal-on-scroll">
+          <div class="subheading-row">
+            <h3 class="subheading-title"><i class="fa-solid fa-certificate"></i> Professional Certifications</h3>
+            <span class="subheading-note">All certificates can be linked or opened directly</span>
+          </div>
+
+          <div class="cert-grid">
+
+            
+
+
+            
+            <!-- CERTIFICATE CARD 1 -->
+          
+            <div class="cert-card reveal-on-scroll">
+              <div class="cert-preview-box">
+                <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+                <div class="cert-placeholder-center">
+                  <span class="cert-mock-title">Internship Certificate</span>
+                  <span class="cert-mock-issuer">EI systems</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <div class="cert-meta">
+                  <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> EI systems</span>
+                  <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+                </div>
+                <h4 class="cert-name">JAVASCRIPT</h4>
+                <p class="cert-summary">
+                  Completed a hands-on internship focused on JavaScript development, contributing to interactive web applications and enhancing front-end functionality through practical coding experience.
+                </p>
+                <!-- EDIT HERE: Add your certificate link or verification ID -->
+                <a href="INTERNSHIP.jpeg"
+                target="_blank"
+                 class="cert-link  " data-cert-name="Supervised & Unsupervised Machine Learning" data-cert-issuer="DeepLearning.AI">
+                  <span>View Certificate</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- CERTIFICATE CARD 2 -->
+            <!-- EDIT HERE: Update certification details -->
+            <div class="cert-card reveal-on-scroll">
+              <div class="cert-preview-box">
+                <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+                <div class="cert-placeholder-center">
+                  <span class="cert-mock-title">Data Management course</span>
+                  <span class="cert-mock-issuer">saylor.org university</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <div class="cert-meta">
+                  <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> saylor.org university</span>
+                  <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+                </div>
+                <h4 class="cert-name">Data Management</h4>
+                <p class="cert-summary">
+                  Completed a comprehensive data management course covering database design, SQL programming, and data integrity principles, equipping me with practical skills for managing and analyzing structured data effectively.
+                </p>
+                <a href="saylor.org.jpeg" 
+                target ="_blank"
+                class="cert-link " data-cert-name="TensorFlow Developer Specialization" data-cert-issuer="Google Cloud">
+                  <span>View Certificate</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- CERTIFICATE CARD 3 -->
+            <!-- EDIT HERE: Update certification details -->
+            <div class="cert-card reveal-on-scroll">
+              <div class="cert-preview-box">
+                <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+                <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+                <div class="cert-placeholder-center">
+                  <span class="cert-mock-title">Hackathon</span>
+                  <span class="cert-mock-issuer">SRMU</span>
+                </div>
+              </div>
+              <div class="cert-body">
+                <div class="cert-meta">
+                  <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Shri Ramswaroop Memorial University</span>
+                  <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+                </div>
+                <h4 class="cert-name">Smart India Hackathon</h4>
+                <p class="cert-summary">
+                  Participated in the Smart India Hackathon, collaborating with a team to develop innovative solutions for real-world problems, enhancing my skills in rapid prototyping, teamwork, and effective problem-solving.
+                </p>
+                <a href="SIH HACKATHON.jpeg"
+                  target="_blank"  class="cert-link " data-cert-name="Python for Data Science, AI & Development" data-cert-issuer="IBM">
+                  <span>View Certificate</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+          
+
+
+
+
+        <!-- CERTIFICATE CARD 4 -->
+
+<div class="cert-card reveal-on-scroll">
+  <div class="cert-preview-box">
+    <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+    <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+    <div class="cert-placeholder-center">
+      <span class="cert-mock-title">Hackfest</span>
+      <span class="cert-mock-issuer">GDG</span>
+    </div>
+  </div>
+  <div class="cert-body">
+    <div class="cert-meta">
+      <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Google Developers Group</span>
+      <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+    </div>
+    <h4 class="cert-name">Hackfest</h4>
+    <p class="cert-summary">
+      Participated in Hackfest organized by Google Developers Group, where I collaborated with a team to develop innovative solutions, enhancing my skills in coding, problem-solving, and teamwork.
+    </p>
+    <a href="GDG HACKFEST.jpeg"
+       target="_blank"
+       class="cert-link" data-cert-name="TensorFlow Developer Specialization" data-cert-issuer="Google Cloud">
+      <span>View Certificate</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </div>
+</div>
+
+
+<!-- CERTIFICATE CARD 5 -->
+
+<div class="cert-card reveal-on-scroll">
+  <div class="cert-preview-box">
+    <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+    <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+    <div class="cert-placeholder-center">
+      <span class="cert-mock-title">Hackfest</span>
+      <span class="cert-mock-issuer">OSEN</span>
+    </div>
+  </div>
+  <div class="cert-body">
+    <div class="cert-meta">
+      <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> OSEN</span>
+      <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+    </div>
+    <h4 class="cert-name">Hackfest</h4>
+    <p class="cert-summary">
+      Participated in Hackfest organized by OSEN, where I collaborated with a team to develop innovative solutions, enhancing my skills in coding, problem-solving, and teamwork.
+    </p>
+    <a href="OSEN HACKFEST.jpeg"
+       target="_blank"
+       class="cert-link" data-cert-name="TensorFlow Developer Specialization" data-cert-issuer="Google Cloud">
+      <span>View Certificate</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </div>
+</div>
+
+
+<!-- CERTIFICATE CARD 6 -->
+
+<div class="cert-card reveal-on-scroll">
+  <div class="cert-preview-box">
+    <div class="cert-watermark"><i class="fa-solid fa-award"></i></div>
+    <div class="cert-badge-top"><i class="fa-solid fa-shield-halved"></i> Verified Credential</div>
+    <div class="cert-placeholder-center">
+      <span class="cert-mock-title">Hackathon</span>
+      <span class="cert-mock-issuer">BBDNIT</span>
+    </div>
+  </div>
+  <div class="cert-body">
+    <div class="cert-meta">
+      <span class="cert-issuer"><i class="fa-solid fa-building-columns"></i> BBDNIT</span>
+      <span class="cert-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+    </div>
+    <h4 class="cert-name">Hackathon</h4>
+    <p class="cert-summary">
+      Participated in Hackathon organized by BBDNIT, where I collaborated with a team to develop innovative solutions, enhancing my skills in coding, problem-solving, and teamwork.
+    </p>
+    <a href="BBDNIT HACKATHON.jpeg"
+       target="_blank"
+       class="cert-link" data-cert-name="TensorFlow Developer Specialization" data-cert-issuer="Google Cloud">
+      <span>View Certificate</span>
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </div>
+</div>
+
+          </div>
+        </div>
+
+        
+    <!-- ========================================================
+         8. CONTACT SECTION
+         Contact info cards, validated frontend form,
+         direct email link, honest client feedback
+         ======================================================== -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span>Say Hello</span>
+          </div>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">
+            Whether you have an internship opportunity, a project collaboration in mind, or simply want to say hi, my inbox is always open!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left Column: Direct Info Cards -->
+          <div class="contact-info-panel reveal-on-scroll">
+            <h3 class="panel-heading">Let's start a conversation</h3>
+            <p class="panel-desc">
+              I am actively seeking internship opportunities in Artificial Intelligence, Machine Learning, and Software Development. Reach out through any channel below:
+            </p>
+
+            <div class="contact-cards-stack">
+              
+              <!-- Email Card -->
+              <div class="contact-card">
+                <div class="card-icon-box">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="card-content-box">
+                  <span class="card-label">Direct Email</span>
+                  <a href="mailto:radhikasingh6627@gmail.com" class="card-val" id="emailVal">radhikasingh6627@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copyEmailBtn" aria-label="Copy email address" title="Copy email address">
+                  <i class="fa-regular fa-copy"></i>
+                  <span class="copy-tooltip">Copy</span>
+                </button>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="contact-card">
+                <div class="card-icon-box">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="card-content-box">
+                  <span class="card-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/radhika-singh-768a34395" target="_blank" rel="noopener noreferrer" class="card-val">
+                    linkedin.com/in/radhika-singh-768a34395
+                  </a>
+                </div>
+                <a href="https://www.linkedin.com/in/radhika-singh-768a34395" target="_blank" rel="noopener noreferrer" class="arrow-link" aria-label="Visit LinkedIn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- GitHub Card -->
+              <div class="contact-card">
+                <div class="card-icon-box">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="card-content-box">
+                  <span class="card-label">GitHub Repository</span>
+                  <a href="https://github.com/radhikasingh6627-bit" target="_blank" rel="noopener noreferrer" class="card-val">
+                    github.com/radhikasingh6627-bit
+                  </a>
+                </div>
+                <a href="https://github.com/radhikasingh6627-bit" target="_blank" rel="noopener noreferrer" class="arrow-link" aria-label="Visit GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- Location / Academic Status Card -->
+              <div class="contact-card">
+                <div class="card-icon-box">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="card-content-box">
+                  <span class="card-label">Current Academic Base</span>
+                  <span class="card-val-static">B.Tech CSE (AI/ML) Undergraduate, India</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Opportunity Availability Status Badge -->
+            <div class="opportunity-status-card">
+              <span class="status-indicator"></span>
+              <div>
+                <span class="status-title">Open for Opportunities</span>
+                <p class="status-subtitle">Available for internships, hackathons & research projects.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Interactive Validated Contact Form -->
+          <div class="contact-form-panel reveal-on-scroll">
+            <div class="form-header-box">
+              <h3 class="form-panel-title">Send Me a Message</h3>
+              <p class="form-panel-subtitle">Fill in your information and I will respond promptly.</p>
+            </div>
+
+            <!-- Validated Form -->
+            <form id="contactForm" class="contact-form" novalidate>
+              
+              <!-- Name Input -->
+              <div class="form-group">
+                <label for="userName" class="form-label">Your Name <span class="req-star">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-user input-icon"></i>
+                  <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. Radhika Singh" required autocomplete="name">
+                </div>
+                <span class="error-msg" id="nameError">Please enter your name (minimum 2 characters).</span>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Your Email <span class="req-star">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-regular fa-envelope input-icon"></i>
+                  <input type="email" id="userEmail" name="email" class="form-input" placeholder="e.g. name@example.com" required autocomplete="email">
+                </div>
+                <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <!-- Subject Input -->
+              <div class="form-group">
+                <label for="userSubject" class="form-label">Subject <span class="req-star">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="userSubject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                </div>
+                <span class="error-msg" id="subjectError">Please provide a subject for your message.</span>
+              </div>
+
+              <!-- Message Textarea -->
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Message <span class="req-star">*</span></label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="userMessage" name="message" class="form-input form-textarea" rows="5" placeholder="Share your project idea, query or opportunity details here..." required></textarea>
+                </div>
+                <span class="error-msg" id="messageError">Please enter a message (at least 10 characters).</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                <span>Send Message</span>
+                <i class="fa-regular fa-paper-plane"></i>
+              </button>
+
+              <p class="panel-desc">
+                NOTE:The form validates your message on the front end but does not send it directly. It opens your email app or suggests connecting via LinkedIn.
+            </p>
+
+              
+            </form>
+
+            <!-- Form Feedback Modal / Dialog (Honest frontend communication) -->
+            <div class="form-response-card" id="formResponse" style="display: none;">
+              <div class="response-icon-circle">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <h4 class="response-title">Message Formatted & Ready!</h4>
+              <p class="response-text" id="responseText">
+                Thank you! Your message details have been validated. Since this portfolio is running on static frontend without an active backend server, you can instantly dispatch it using your default mail app or connect on LinkedIn.
+              </p>
+              <div class="response-actions">
+                <a href="#" id="directMailtoLink" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-envelope-open-text"></i>
+                  <span>Open in Mail App</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm" id="resetFormBtn">
+                  <span>Close</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       9. FOOTER
+       Branding, navigation links, socials, dynamic copyright
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <!-- Footer Top Grid -->
+      <div class="footer-top-row">
+        
+        <!-- Brand Summary -->
+        <div class="footer-brand-col">
+          <a href="#home" class="footer-logo">
+            <span class="logo-mark">R</span>
+            <span class="logo-text">Radhika Singh<span class="accent-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            B.Tech Computer Science & Engineering (AI/ML) undergraduate passionate about crafting intelligent technologies and delightful web experiences.
+          </p>
+          <div class="footer-socials">
+            <a href="https://github.com/radhikasingh6627-bit" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/radhika-singh-768a34395" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:radhikasingh6627@gmail.com" class="footer-social-link" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="#experience">Experience & Journey</a></li>
+            <li><a href="#achievements">Certificates & Honors</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <!-- EDIT HERE: Link to your resume PDF -->
+            <li><a href="#contact" class="resume-footer-link">Download Resume</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Contact Info -->
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Reach Out</h4>
+          <p class="footer-contact-item">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:radhikasingh6627@gmail.com">radhikasingh6627@gmail.com</a>
+          </p>
+          <p class="footer-contact-item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>B.Tech CSE (AI & ML)</span>
+          </p>
+          <p class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>India</span>
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom-row">
+        <p class="copyright-text">
+          &copy; <span id="currentYear"></span> <strong>Radhika Singh</strong>. All Rights Reserved.
+        </p>
+        <p class="built-with-text">
+          Designed with <i class="fa-solid fa-heart heart-beat"></i> in Pastel Lavender, White & Purple.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       BACK TO TOP BUTTON
+       Smooth scroll to top, dynamically visible upon scroll
+       ======================================================== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page" title="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================================
+       INTERACTIVE MODAL FOR CERTIFICATE & DEMO PREVIEWS
+       Clean popup informing user how to link their assets
+       ======================================================== -->
+  <div class="modal-backdrop" id="infoModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div class="modal-header">
+        <div class="modal-icon-circle">
+          <i class="fa-solid fa-award"></i>
+        </div>
+        <h3 class="modal-title" id="modalTitle">Certificate Details</h3>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modalDismissBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
